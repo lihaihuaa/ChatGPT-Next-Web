@@ -21,6 +21,8 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
+  REPO_URL_DY,
+  REPO_URL_MAIN,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -96,9 +98,13 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+        <div className={styles["sidebar-title"]}>
+          <a href={REPO_URL_MAIN} target="_blank">
+            ChatGPT
+          </a>
+        </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          It is not hard to give up, But it must be cool to persevere.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -151,7 +157,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
+            <a href={REPO_URL_DY} target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>

@@ -1,6 +1,9 @@
-export const OWNER = "Yidadaa";
+export const OWNER = "lihaihuaa";
 export const REPO = "ChatGPT-Next-Web";
+export const DY_RANDOM = "YGPC3w9";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
+export const REPO_URL_DY = `https://v.douyin.com/${DY_RANDOM}`;
+export const REPO_URL_MAIN = `https://www.haircv.com`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
