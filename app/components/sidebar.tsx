@@ -98,11 +98,7 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>
-          <a href={REPO_URL_MAIN} target="_blank">
-            ChatGPT
-          </a>
-        </div>
+        <div className={styles["sidebar-title"]}>ChatGPT Web</div>
         <div className={styles["sidebar-sub-title"]}>
           It is not hard to give up, But it must be cool to persevere.
         </div>
@@ -157,7 +153,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL_DY} target="_blank">
+            <a href={REPO_URL_MAIN} target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
