@@ -35,13 +35,13 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
 ## Roadmap
 
-- [x] System Prompt: pin a user defined prompt as system prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
+- [x] System Prompt: pin a user defined prompt as system prompt [#138](https://github.com/lihaihuaa/ChatGPT-Next-Web/issues/138)
 - [x] User Prompt: user can edit and save custom prompts to prompt list
-- [x] Prompt Template: create a new chat with pre-defined in-context prompts [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
+- [x] Prompt Template: create a new chat with pre-defined in-context prompts [#993](https://github.com/lihaihuaa/ChatGPT-Next-Web/issues/993)
 - [x] Share as image, share to ShareGPT [#1741](https://github.com/lihaihuaa/ChatGPT-Next-Web/pull/1741)
 - [ ] Desktop App with tauri
 - [ ] Self-host Model: support llama, alpaca, ChatGLM, BELLE etc.
-- [ ] Plugins: support network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
+- [ ] Plugins: support network search, calculator, any other apis etc. [#165](https://github.com/lihaihuaa/ChatGPT-Next-Web/issues/165)
 
 ### Not in Plan
 
@@ -68,13 +68,13 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
 ## 开发计划
 
-- [x] 为每个对话设置系统 Prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
+- [x] 为每个对话设置系统 Prompt [#138](https://github.com/lihaihuaa/ChatGPT-Next-Web/issues/138)
 - [x] 允许用户自行编辑内置 Prompt 列表
-- [x] 预制角色：使用预制角色快速定制新对话 [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
+- [x] 预制角色：使用预制角色快速定制新对话 [#993](https://github.com/lihaihuaa/ChatGPT-Next-Web/issues/993)
 - [x] 分享为图片，分享到 ShareGPT 链接 [#1741](https://github.com/lihaihuaa/ChatGPT-Next-Web/pull/1741)
 - [ ] 使用 tauri 打包桌面应用
 - [ ] 支持自部署的大语言模型
-- [ ] 插件机制，支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
+- [ ] 插件机制，支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/lihaihuaa/ChatGPT-Next-Web/issues/165)
 
 ### 不会开发的功能
 
@@ -182,7 +182,7 @@ If you do not want users to use GPT-4, set this value to 1.
 
 > [简体中文 > 如何进行二次开发](./README_CN.md#开发)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lihaihuaa/ChatGPT-Next-Web)
 
 Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
 
