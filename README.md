@@ -17,7 +17,7 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 
 [web-url]: https://chatgpt.nextweb.fun
    
-[download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
+[download-url]: https://github.com/lihaihuaa/ChatGPT-Next-Web/releases
 
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 
@@ -27,9 +27,9 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flihaihuaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lihaihuaa/ChatGPT-Next-Web)
 
 ![cover](./docs/images/cover.png)
 

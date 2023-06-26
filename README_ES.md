@@ -106,7 +106,7 @@ Si no desea que los usuarios consulte el saldo, establezca esta variable de ento
 
 Haga clic en el botón de abajo para iniciar el desarrollo secundario:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lihaihuaa/ChatGPT-Next-Web)
 
 Antes de empezar a escribir código, debe crear uno nuevo en la raíz del proyecto `.env.local` archivo, lleno de variables de entorno:
 
@@ -127,12 +127,12 @@ Antes de empezar a escribir código, debe crear uno nuevo en la raíz del proyec
 > ⚠️ Nota: Las versiones de Docker están de 1 a 2 días por detrás de la última versión la mayor parte del tiempo, por lo que es normal que sigas diciendo "La actualización existe" después de la implementación.
 
 ```shell
-docker pull yidadaa/chatgpt-next-web
+docker pull lihaihuaa/chatgpt-next-web
 
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY="sk-xxxx" \
    -e CODE="页面访问密码" \
-   yidadaa/chatgpt-next-web
+   lihaihuaa/chatgpt-next-web
 ```
 
 También puede especificar proxy:
@@ -143,7 +143,7 @@ docker run -d -p 3000:3000 \
    -e CODE="页面访问密码" \
    --net=host \
    -e PROXY_URL="http://127.0.0.1:7890" \
-   yidadaa/chatgpt-next-web
+   lihaihuaa/chatgpt-next-web
 ```
 
 Si necesita especificar otras variables de entorno, agréguelas usted mismo en el comando anterior `-e 环境变量=环境变量值` para especificar.
@@ -153,7 +153,7 @@ Si necesita especificar otras variables de entorno, agréguelas usted mismo en e
 Ejecute el siguiente comando en la consola:
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/lihaihuaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
 ⚠️ Nota: Si tiene problemas durante la instalación, utilice la implementación de Docker.
