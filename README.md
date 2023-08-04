@@ -265,4 +265,4 @@ bash <(curl -s https://raw.githubusercontent.com/lihaihuaa/ChatGPT-Next-Web/main
 
 ## LICENSE
 
-[Anti 996 License](https://github.com/kattgu7/Anti-996-License/blob/master/LICENSE_CN_EN)
+[MIT](https://opensource.org/license/mit/)
