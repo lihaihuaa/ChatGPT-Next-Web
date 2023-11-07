@@ -169,6 +169,7 @@ bash <(curl -s https://raw.githubusercontent.com/lihaihuaa/ChatGPT-Next-Web/main
 
 ⚠️ 注意：如果你安装过程中遇到了问题，请使用 docker 部署。
 
+
 ## 鸣谢
 
 ### 捐赠者
@@ -182,3 +183,4 @@ bash <(curl -s https://raw.githubusercontent.com/lihaihuaa/ChatGPT-Next-Web/main
 ## 开源协议
 
 [MIT](https://opensource.org/license/mit/)
+
