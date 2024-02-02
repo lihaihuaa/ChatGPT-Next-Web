@@ -157,7 +157,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+          Hair永远滴神
         </div>
         <div className={styles["sidebar-sub-title"]}>
           It is not hard to give up, But it must be cool to persevere.
